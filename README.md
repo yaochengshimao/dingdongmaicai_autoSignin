@@ -6,3 +6,4 @@
   * userid = "C082631"
   * username = "yaochengshimao@100.me"
   * password = "!qaz@wsx#edc"
+  * CAPTCHA = "111222" # 万能验证码
