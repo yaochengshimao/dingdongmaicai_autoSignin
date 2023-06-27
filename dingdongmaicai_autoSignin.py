@@ -41,7 +41,7 @@ if __name__ == "__main__":
     domain = "http://ssov2.ddxq.mobi/"
 
     userid = "C082631"
-    username = "yaochengshimao"
+    username = "yaochengshimao@100.me"
     password = "!qaz@wsx#edc"
 
     cookie = sso_login(domain, password, username)
