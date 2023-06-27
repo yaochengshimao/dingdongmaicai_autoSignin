@@ -5,10 +5,11 @@
 import requests
 
 
-def sso_login(domain, username, password):
+def sso_login(domain, username, password, CAPTCHA):
     data = {
         "username": username,
         "passowrd": password,
+        "CAPTCHA": CAPTCHA
     }
     url = domain + "/api/v2/login"
     rep = requests.post(url, data=data)
@@ -43,7 +44,8 @@ if __name__ == "__main__":
     userid = "C082631"
     username = "yaochengshimao@100.me"
     password = "!qaz@wsx#edc"
+    CAPTCHA = "111222"
 
-    cookie = sso_login(domain, password, username)
+    cookie = sso_login(domain, password, username, CAPTCHA)
     signin(userid, cookie, domain)
 
