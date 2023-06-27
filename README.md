@@ -4,5 +4,5 @@
 * 脚本对应域名：http://ssov2.ddxq.mobi/
 * 脚本参数：
   * userid = "C082631"
-  * username = "yaochengshimao"
+  * username = "yaochengshimao@100.me"
   * password = "!qaz@wsx#edc"
